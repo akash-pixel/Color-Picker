@@ -1,0 +1,27 @@
+.card {
+  width: 30rem;
+  height: 10rem;
+  margin: 2px;
+  background-color: #f3d2f3; /*#cfb094*/
+  display: flex;
+}
+
+.color {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 3%;
+  margin: 1px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+}
+
+.color:hover {
+  font-size: large;
+  font-weight: 700;
+  color: black;
+}
